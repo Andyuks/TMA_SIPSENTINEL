@@ -2,7 +2,7 @@
 Ths repository contains the code implemented for the SipSentinel program of the TMA subject.
 
 ## Execution
-In order to try it, execute:
+In order to try it, execute the following command inside the Demo folder:
 
 $ python3 sipsentinel.py
 

@@ -7,10 +7,10 @@ Ths repository contains the code implemented for the SipSentinel program of the 
 - Discarded lines of work folder: contains discarded approaches for addressing the issue at hand.
 
 ## Training prerequisites
-Before training the model, download the required attack datasets from
+Before training the model, download the required attack datasets from https://link.springer.com/chapter/10.1007/978-3-642-13971-0_10 
 
 ## Execution
-In order to try it, execute the following command inside the Demo folder:
+In order to try the program, execute the following command inside the Demo folder:
 
 $ python3 sipsentinel.py
 

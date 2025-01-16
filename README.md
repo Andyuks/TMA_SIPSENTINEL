@@ -24,6 +24,7 @@ After initiating the program, choose one of the 2 options:
 
 ## Prototype features
 - Option 2: analyze live traffic
+
 Function to capture live traffic and feed to model for real time attack detection. Function in development, before use in production stage.
 
 

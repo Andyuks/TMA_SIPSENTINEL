@@ -1,6 +1,9 @@
 # TMA_SIPSENTINEL
 Ths repository contains the code implemented for the SipSentinel program of the TMA subject.
 
+## Prerequisites
+Before training the model, download the attack datasets from: 'VoIP Enterprise - Attack Dataset.html'
+
 ## Execution
 In order to try it, execute the following command inside the Demo folder:
 

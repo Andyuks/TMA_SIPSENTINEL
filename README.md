@@ -1,5 +1,5 @@
 # TMA_SIPSENTINEL
-Ths repository contains the code implemented for the SipSentinel program of the TMA subject.
+This repository contains the code implemented for the SipSentinel program of the TMA subject.
 
 ## Structure
 - Demo folder: contains the python script for training the ML model and performing threat detection. It contains as well "normal" traffic datasets.

@@ -26,12 +26,4 @@ After initiating the program, choose one of the 2 options:
 
 
 ## Contact
-Contact us for any doubt or question:
-
-estela.alvarez@estudiantat.upc.edu
-
-sandra.buitrago@estudiantat.upc.edu
-
-pol.kallai@estudiantat.upc.edu
-
-amanda.sin@estudiantat.upc.edu
+Contact us for any doubt or question.

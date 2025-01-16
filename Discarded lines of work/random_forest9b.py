@@ -100,7 +100,7 @@ class VoIPAnomalyDetector:
         cap.close()
         df = pd.DataFrame(features)
         
-        # Add flow-based features
+        # Flow-based features
         df['packets_in_flow'] = df['flow_key'].map({k: v['packet_counts'] for k, v in flow_stats.items()})
         df['bytes_in_flow'] = df['flow_key'].map({k: v['byte_counts'] for k, v in flow_stats.items()})
         
@@ -131,7 +131,7 @@ class VoIPAnomalyDetector:
         
         dataset = pd.concat(df_list, ignore_index=True)
         
-        # Add advanced features
+        
         self._add_advanced_features(dataset)
         
         return dataset

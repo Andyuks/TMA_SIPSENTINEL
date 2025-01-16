@@ -10,7 +10,6 @@ import time
 
 #-----------------------------------------------------------
 # FEATURE EXTRACTION
-# Enhanced feature extraction with advanced metrics
 STATISTICS_PACKET_WINDOW = 100
 
 def extract_features(pcap_file):
@@ -49,7 +48,7 @@ def extract_features(pcap_file):
     cap.close()
     return pd.DataFrame(features)
 
-# Prepare the dataset with advanced features
+# Prepare the dataset
 def prepare_dataset(pcap_files, labels):
     df_list = []
     for pcap_file, label in zip(pcap_files, labels):
@@ -59,7 +58,7 @@ def prepare_dataset(pcap_files, labels):
 
     dataset = pd.concat(df_list, ignore_index=True)
 
-    # Add advanced traffic metrics
+    # Traffic metrics
     dataset['inter_packet_time'] = dataset['time'].diff().fillna(0)
     source_stats = dataset.groupby('src_port')['packet_size'].agg(['count', 'mean'])
     dataset['src_packet_count'] = dataset['src_port'].map(source_stats['count'])

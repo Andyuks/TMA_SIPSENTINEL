@@ -14,7 +14,7 @@ In order to try the program, execute the following command inside the Demo folde
 
 $ python3 sipsentinel.py
 
-After initiating the program, choose one of 3 options:
+After initiating the program, choose one of the 2 options:
 
 
 - Option 0: train and save the model
@@ -22,8 +22,6 @@ After initiating the program, choose one of 3 options:
 
 - Option 1: analyze saved pcap file
 
-
-- Option 2: analyze live traffic
 
 
 

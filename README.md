@@ -1,8 +1,13 @@
 # TMA_SIPSENTINEL
 Ths repository contains the code implemented for the SipSentinel program of the TMA subject.
 
-## Prerequisites
-Before training the model, download the attack datasets from: 'VoIP Enterprise - Attack Dataset.html'
+## Structure
+- Demo folder: contains the python script for training the ML model and performing threat detection.
+
+- Discarded lines of work folder: contains discarded approaches for addressing the issue at hand.
+
+## Training prerequisites
+Before training the model, download the required attack datasets from
 
 ## Execution
 In order to try it, execute the following command inside the Demo folder:
